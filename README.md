@@ -10,212 +10,264 @@ Practical software from JasoosLabs.
 
 ## Agentic AI, Simplified
 
-**Structured AI coding. Asynchronous coding. Repeatable human-AI workflows.**
+**Structured AI Coding • Asynchronous Coding • Repeatable Workflows • Secure Hideout**
 
-NovaInsert helps make AI-assisted development more structured, repeatable, and practical — especially for people who want to build software with AI without living inside an IDE, terminal, or continuous AI chat session.
+NovaInsert is a Windows productivity and workflow tool for people who repeatedly move instructions, commands, information, and actions between themselves, AI systems, terminals, applications, and fields.
 
-It combines reusable AI instructions, prompts, commands, checklists, keyboard actions, and workflows into organized **Projects** and **Library Insert Sets (LIS)**.
+It is designed especially for people who want the benefits of AI-assisted development without spending their entire development process inside an IDE, terminal, or continuous prompt-response conversation.
 
-You decide what should happen and where it should go. NovaInsert helps you repeatedly put the right instruction or action in the right place.
+NovaInsert combines four ideas:
 
-## Why NovaInsert?
-
-AI can write code, investigate problems, review changes, run through requirements, and help build complete applications.
-
-But effective AI development still requires the human to organize the work:
-
-- What exactly should the AI do?
-- What context does it need?
-- What must it not change?
-- What should it verify?
-- How should the result be tested?
-- When should it stop and ask?
-- What commands and procedures do I keep using again and again?
-
-NovaInsert turns those recurring pieces of work into reusable workflows.
-
-## Structured AI Coding
-
-Instead of recreating your development process in every AI conversation, NovaInsert lets you keep reusable pieces of that process ready.
-
-Examples include:
-
-- exploration and requirements prompts;
-- implementation instructions;
-- agent boundaries;
-- coding rules;
-- build and test commands;
-- code-review prompts;
-- regression checks;
-- adversarial testing;
-- verification procedures;
-- release checklists.
-
-The goal is simple:
-
-**Spend less time reconstructing the process and more time deciding what should be built.**
-
-## Asynchronous Coding
-
-AI coding does not have to be a continuous interactive conversation.
-
-NovaInsert supports a different working model:
-
-**Prepare → Delegate → Leave → Return → Verify**
-
-Define a useful unit of work, give the AI the instructions and constraints it needs, let it work independently, and return when the work is ready for review.
-
-Think of it as **batch-mode AI coding**.
-
-Instead of staying in an endless prompt-response-prompt loop, you can structure work so the AI performs larger pieces independently while you do something else.
-
-NovaInsert does not replace the AI coding tool. It helps organize the human side of working with one.
-
-## Agentic AI Without Starting With an Agent Framework
-
-Agentic AI introduces useful ideas such as:
-
-- delegation;
-- boundaries;
-- autonomy;
-- execution;
-- verification;
-- escalation;
-- testing;
-- human oversight.
-
-NovaInsert provides reusable Library Insert Sets for working with these concepts.
-
-You can use them with ChatGPT, Claude, Gemini, local AI tools, coding assistants, and other AI environments.
-
-NovaInsert itself does not need to pretend to be an autonomous AI agent.
-
-It helps **you structure and manage agentic AI work**.
-
-## Built-in AI Workflow Examples
-
-NovaInsert includes Library Insert Sets covering areas such as:
-
-- **4E LLM workflows** — Explore, Engineer, Execute, Evaluate;
-- **LLM Explore** — understand the problem before acting;
-- **LLM Engineer** — turn ideas into structured work;
-- **Evidence** — require evidence and sources;
-- **Verify** — check assumptions and results;
-- **Code Review** — structured code-review prompts;
-- **Red Team** — adversarial review;
-- **Agent Boundaries** — define what an AI agent may and may not do;
-- **Agent Delegate** — clearly assign work;
-- **Agent Execute** — execution-focused instructions;
-- **Agent Verify** — completion and verification checks;
-- **Agent Escalate** — define when the AI should stop and ask;
-- **Agent Autonomy** — define levels of autonomy;
-- **Agent Management** — manage AI-agent work as the human owner;
-- **Agent Development Testing** — test AI-built and AI-assisted software.
-
-The Library is intended to be used, modified, and extended for your own way of working.
-
-## Not Just AI
-
-NovaInsert is also useful anywhere you repeatedly type, paste, run, or look up the same material.
-
-### Development
-
-Keep frequently used:
-
-- PowerShell commands;
-- Git commands;
-- .NET build, test, and run commands;
-- Node/Vite commands;
-- React Native commands;
-- Android ADB commands;
-- diagnostic procedures;
-- testing sequences;
-- release checklists.
-
-### Windows and System Administration
-
-Store repeatable procedures for:
-
-- Windows diagnostics;
-- PowerShell administration;
-- WSL;
-- network checks;
-- Raspberry Pi administration;
-- shared-drive checks;
-- Samba;
-- Syncthing;
-- backup-node maintenance.
-
-### Everyday Work
-
-Use NovaInsert for:
-
-- repeated replies;
-- notes and explanations;
-- standard instructions;
-- message fragments;
-- issue templates;
-- checklists;
-- frequently used information.
-
-## How It Works
-
-NovaInsert organizes reusable work into **Projects** and **Library Insert Sets**.
-
-An insert can then be sent to the destination you choose, including:
-
-- an application window;
-- a Windows Terminal tab;
-- the clipboard;
-- the current text field.
-
-This makes the same mechanism useful for AI prompts, development commands, administrative procedures, and ordinary reusable text.
-
-## Start Here
-
-After opening NovaInsert, use the built-in:
-
-**README — Start Here**
-
-guide.
-
-For the first tutorial, turn on:
-
-- **Enable sounds**
-- **Enable Nova dragon flight**
-
-These cues make it easier to see where NovaInsert sends an insert while learning the application.
+- **Structured AI Coding** — organize reusable instructions and development procedures.
+- **Asynchronous Coding** — prepare work, delegate it to AI, leave, return, and verify the result.
+- **Reusable Workflows** — keep commands, prompts, keyboard actions, procedures, and other frequently used material ready for execution.
+- **Secure Hideout** — keep protected reusable information available for controlled insertion when needed.
 
 ---
 
-# Download NovaInsert v1.0.0
+## Why NovaInsert?
 
-## Recommended — Small ZIP
+AI can generate code quickly.
 
-[NovaInsert-v1.0.0-win-x64-small.zip](releases/NovaInsert/v1.0.0/NovaInsert-v1.0.0-win-x64-small.zip)
+The harder problem is organizing the work around it.
 
-The smaller download requires the Microsoft **.NET 8 Desktop Runtime for Windows x64**.
+What should the AI do?
 
-## Full ZIP
+What context does it need?
 
-[NovaInsert-v1.0.0-win-x64-full.zip](releases/NovaInsert/v1.0.0/NovaInsert-v1.0.0-win-x64-full.zip)
+What boundaries should it respect?
 
-The larger download includes the required .NET runtime.
+How should the result be verified?
 
-## Release Notes
+What tests should run?
 
-[NovaInsert v1.0.0 Release Notes](releases/NovaInsert/v1.0.0/RELEASE-v1.0.0.md)
+When should the AI stop and ask for help?
 
-## Install
+Which instructions will be needed again tomorrow?
 
-1. Download one of the ZIP files.
-2. Extract it to a folder.
-3. Run `NovaInsert.exe`.
-4. Open **README — Start Here** inside NovaInsert.
+NovaInsert turns these recurring pieces of work into reusable structures.
 
-Use the small ZIP if you already have the .NET 8 Desktop Runtime or are willing to install it.
+Instead of repeatedly rebuilding the same instructions and procedures, you create them once and keep them available.
 
-Use the full ZIP if you want the required runtime included.
+---
+
+## Structured AI Coding
+
+NovaInsert uses **Library Insert Sets (LIS)** to organize reusable work.
+
+An LIS can contain things such as:
+
+- AI instructions
+- development procedures
+- prompts
+- verification steps
+- testing procedures
+- PowerShell commands
+- Git commands
+- diagnostic commands
+- keyboard actions
+- frequently reused text
+
+A project can attach the LIS sets it needs.
+
+This creates a repeatable working environment around the project instead of relying on memory or reconstructing prompts every time.
+
+---
+
+## Asynchronous Coding
+
+Much AI coding today is interactive:
+
+**Prompt → Wait → Read → Respond → Repeat**
+
+NovaInsert also supports a different working model:
+
+**Prepare → Delegate → Leave → Return → Verify**
+
+Think of it as **batch-mode AI coding**.
+
+Prepare a structured task.
+
+Give it to the AI.
+
+Let the AI perform the work.
+
+Return when convenient.
+
+Verify what happened.
+
+This is particularly useful for people who want to use AI to build software without becoming full-time operators of an AI conversation.
+
+---
+
+## Agentic AI Without Starting With an Agent Framework
+
+You do not need to begin by building an autonomous software agent.
+
+Many of the useful ideas behind agentic AI can first be applied to the way humans organize AI work:
+
+- define boundaries
+- delegate work
+- execute tasks
+- verify results
+- escalate problems
+- control autonomy
+- manage development
+- test changes
+- evaluate results
+
+NovaInsert includes reusable LIS sets for these activities.
+
+The human remains in control while the workflow becomes increasingly structured and repeatable.
+
+---
+
+## Secure Hideout
+
+Some information is useful repeatedly but should not live in ordinary snippets, documents, prompts, or clipboard history.
+
+NovaInsert includes **Hideout** for protected reusable information.
+
+Hideout lets you keep information available inside NovaInsert and insert selected values into applications and fields when required.
+
+Typical uses can include reusable personal information, account-related information, identifiers, addresses, contact information, or other values you do not want scattered through ordinary workflow files.
+
+The goal is simple:
+
+**Keep protected information separate. Use it only when needed. Insert it deliberately.**
+
+Hideout complements the rest of NovaInsert.
+
+Library Insert Sets organize reusable workflows.
+
+Hideout handles protected reusable information.
+
+---
+
+## Built-In AI Workflow Examples
+
+NovaInsert ships with reusable workflow material for:
+
+### AI and LLM Work
+
+- Explore
+- Engineer
+- Evidence
+- Verify
+- Evaluate
+- Code Review
+- Red Team
+
+### Agentic AI Management
+
+- Boundaries
+- Delegate
+- Execute
+- Verify
+- Escalate
+- Autonomy
+- Manage
+- Manager
+- Development Testing
+
+### Testing and Release Discipline
+
+- Adversarial Testing
+- Agent Evaluation
+- Change Testing
+- Contract Testing
+- Impact Testing
+- Production Testing
+- Regression Testing
+- Release Testing
+
+---
+
+## Not Just AI
+
+NovaInsert's underlying mechanism is general-purpose.
+
+The same reusable-work model can support:
+
+### Development
+
+- .NET
+- Git
+- Android ADB
+- Node / Vite
+- React Native
+
+### Windows and System Administration
+
+- PowerShell
+- diagnostics
+- keyboard operations
+- WSL
+- reusable Windows fields
+
+### Raspberry Pi and Backup Administration
+
+Reusable commands and procedures for managing systems such as backup nodes.
+
+### Media Workflows
+
+Reusable FFmpeg commands and related procedures.
+
+### Everyday Work
+
+Frequently used replies, text, information, and repetitive computer tasks.
+
+---
+
+## How It Works
+
+A typical NovaInsert workflow is:
+
+1. Create or select a project.
+2. Attach the Library Insert Sets useful for that project.
+3. Select or capture the destination application or window.
+4. Choose the reusable instruction, command, text, or action.
+5. NovaInsert sends it to the intended destination.
+6. Use Hideout when protected reusable information is required.
+
+The same structure can be reused across many projects and applications.
+
+---
+
+## Start Here
+
+If you are new to NovaInsert, begin with the included guides.
+
+They cover:
+
+- getting started
+- projects
+- linked windows
+- inserts
+- Library Insert Sets
+- AI and Agentic AI workflows
+- Hideout
+- engineering concepts
+
+---
+
+## Downloads
+
+### Small — .NET 8 Required
+
+[Download NovaInsert v1.0.0 — Small](releases/NovaInsert/v1.0.0/NovaInsert-v1.0.0-win-x64-small.zip)
+
+Use this version if .NET 8 Desktop Runtime is already installed.
+
+### Full — Self-Contained
+
+[Download NovaInsert v1.0.0 — Full](releases/NovaInsert/v1.0.0/NovaInsert-v1.0.0-win-x64-full.zip)
+
+Larger download, but includes the required .NET runtime.
+
+### Release Notes
+
+[Read the NovaInsert v1.0.0 release notes](releases/NovaInsert/v1.0.0/RELEASE-v1.0.0.md)
 
 ---
 
@@ -223,8 +275,8 @@ Use the full ZIP if you want the required runtime included.
 
 ```text
 releases/
-  NovaInsert/
-    v1.0.0/
-      RELEASE-v1.0.0.md
-      NovaInsert-v1.0.0-win-x64-small.zip
-      NovaInsert-v1.0.0-win-x64-full.zip
+└── NovaInsert/
+    └── v1.0.0/
+        ├── NovaInsert-v1.0.0-win-x64-small.zip
+        ├── NovaInsert-v1.0.0-win-x64-full.zip
+        └── RELEASE-v1.0.0.md

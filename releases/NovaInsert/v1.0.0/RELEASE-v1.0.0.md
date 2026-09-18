@@ -1,206 +1,341 @@
+
+### 2. `E:\dev\NovaInsert\RELEASE-v1.0.0.md`
+
+```md
 # NovaInsert v1.0.0
 
 ## Agentic AI, Simplified
 
-**Structured AI coding. Asynchronous coding. Repeatable human-AI workflows.**
+**Structured AI Coding • Asynchronous Coding • Repeatable Workflows • Secure Hideout**
 
-NovaInsert is a Windows tool for organizing and managing repeatable AI-assisted work.
+NovaInsert is a Windows tool for organizing and managing repeatable AI-assisted work, development workflows, frequently used computer actions, and protected reusable information.
 
 It is designed especially for people who want to build software with AI without spending the entire development process in an interactive prompt-response loop.
 
-NovaInsert combines reusable AI instructions, prompts, commands, checklists, keyboard actions, and workflows into Projects and Library Insert Sets (LIS).
+NovaInsert combines structured AI workflows, asynchronous coding, reusable Library Insert Sets, application targeting, keyboard actions, and Secure Hideout in one working environment.
 
 **JasoosLabs — Of the AI, By the AI and for the AI.**
 
+---
+
 ## Structured AI Coding
 
-AI can generate code, investigate problems, review changes, and help build applications.
+AI coding becomes much more useful when the work around the AI is structured.
 
-But the human still needs to define and manage the work:
+NovaInsert lets you keep reusable instructions for activities such as:
 
-- What should the AI do?
-- What context does it need?
-- What should it not change?
-- What should it verify?
-- How should the result be tested?
-- When should the AI stop and ask?
-- What development procedures should be repeated consistently?
+- exploring a problem
+- engineering a solution
+- gathering evidence
+- verifying results
+- evaluating changes
+- reviewing code
+- adversarial testing
+- managing agent behavior
+- release testing
 
-NovaInsert lets these recurring instructions and procedures become reusable parts of your workflow instead of being reconstructed for every AI session.
+Instead of reconstructing these instructions for every AI conversation, they can become reusable parts of your development workflow.
+
+---
 
 ## Asynchronous Coding
 
-AI coding does not have to mean continuously sitting in front of an AI conversation.
+Most AI coding begins as an interactive loop:
+
+**Prompt → Wait → Read → Respond → Repeat**
 
 NovaInsert supports another model:
 
 **Prepare → Delegate → Leave → Return → Verify**
 
-Prepare a well-defined unit of work, give the AI the instructions and boundaries it needs, let it work independently, and return to review and test the result.
+This can be thought of as **batch-mode AI coding**.
 
-Think of this as **batch-mode AI coding**.
+Prepare the work and the instructions.
 
-NovaInsert does not replace ChatGPT, Claude, Gemini, local AI tools, coding assistants, or other AI environments.
+Delegate the task.
 
-It helps organize the human side of working with them.
+Let the AI work.
 
-## Agentic AI Workflows
+Return later.
 
-NovaInsert helps make agentic AI concepts practical without requiring you to begin by building an agent framework.
+Verify the result.
 
-Its reusable workflows can help structure:
-
-- delegation;
-- boundaries;
-- execution;
-- autonomy;
-- verification;
-- escalation;
-- testing;
-- human oversight.
-
-The human remains responsible for deciding what work is delegated and whether the result is acceptable.
-
-## What NovaInsert Does
-
-NovaInsert keeps reusable text, commands, AI prompts, keyboard actions, checklists, and Library Insert Sets ready for use.
-
-You can send them to destinations such as:
-
-- application windows;
-- Windows Terminal tabs;
-- browsers;
-- editors;
-- the clipboard;
-- the current text field.
-
-NovaInsert does not guess where you want an insert sent. You choose and link the destination.
-
-## Downloads
-
-### Recommended — Small ZIP
-
-**NovaInsert-v1.0.0-win-x64-small.zip**
-
-This is the preferred download for most users.
-
-It requires the Microsoft **.NET 8 Desktop Runtime for Windows x64**.
-
-If NovaInsert does not start, install the .NET 8 Desktop Runtime and run `NovaInsert.exe` again.
-
-### Full ZIP
-
-**NovaInsert-v1.0.0-win-x64-full.zip**
-
-This larger package includes the required .NET runtime.
-
-Use it if you prefer a package with the runtime included.
-
-## First Run
-
-1. Extract the ZIP.
-2. Run `NovaInsert.exe`.
-3. Open the built-in **README — Start Here** guide.
-4. Turn on **Enable sounds** and **Enable Nova dragon flight** for the first tutorial.
-5. Create a practice Project, link Notepad, and send your first Insert.
-
-## Built-in Library Insert Sets
-
-NovaInsert includes starter Library Insert Sets so you can immediately see examples of reusable workflows.
-
-They can be used as supplied, modified, or used as starting points for your own workflows.
-
-### AI and LLM Work
-
-- **AI - 4E - LLM** — Explore, Engineer, Execute, Evaluate workflow support.
-- **AI - LLM - Explore** — understand the problem before acting.
-- **AI - LLM - Engineer** — turn ideas into structured work.
-- **AI - LLM - Evidence** — require evidence, sources, and verification.
-- **AI - LLM - Verify** — check assumptions and results.
-- **AI - LLM - Evaluate** — review and improve results.
-- **AI - Code Review** — structured code-review prompts and checklists.
-- **AI - Red Team** — adversarial review prompts.
-
-### Agentic AI Management
-
-- **AI - 4E - Agentic** — structured model for agentic workflows.
-- **AI - Agent - Boundaries** — define what an agent may and may not do.
-- **AI - Agent - Delegate** — assign work clearly.
-- **AI - Agent - Execute** — execution-focused instructions.
-- **AI - Agent - Verify** — verification and completion checks.
-- **AI - Agent - Escalate** — define when an agent should stop and ask.
-- **AI - Agent - Autonomy** — define autonomy levels and control boundaries.
-- **AI - Agent - Manage** — manage AI-agent work as the human owner.
-- **AI - Agent - Manager** — manager-oriented agentic AI prompts.
-- **AI - Agent - Development Testing** — test AI-built and AI-assisted application changes.
-
-### Testing and Release Discipline
-
-- **AI - Test - Contract** — check promises and expected behavior.
-- **AI - Test - Regression** — regression-test thinking.
-- **AI - Test - Change** — review what changed.
-- **AI - Test - Adversarial** — adversarial testing.
-- **AI - Test - Impact** — impact and risk review.
-- **AI - Test - Agent Evaluation** — evaluate agent behavior.
-- **AI - Test - Production** — production-readiness review.
-- **AI - Test - Release** — release-readiness checks.
-
-### Development Workflows
-
-- **Dev - Git** — common Git command sequences.
-- **Dev - Dotnet** — .NET build, test, and run commands.
-- **Dev - Node Vite** — Node/Vite development commands.
-- **Dev - React Native** — React Native command patterns.
-- **Dev - Android ADB** — Android device and ADB commands.
-
-### Windows and PowerShell
-
-- **Win - PowerShell** — common PowerShell command patterns.
-- **Win - Diagnostics** — Windows state and troubleshooting commands.
-- **Win - Keyboard** — reusable keyboard-action examples.
-- **Win - Fields** — reusable fields and placeholders.
-- **Win - WSL Ubuntu** — starter WSL workflows.
-
-### Everyday Work
-
-- **Everyday Replies** — reusable response text for common messages.
-- **Issue Templates** — structured descriptions of bugs, requests, and observations.
-
-### Raspberry Pi and Backup-Node Administration
-
-- **Pi - Backup Node** — commands for fixed-IP checks, mounted shared drives, Samba, Syncthing, and backup-node maintenance.
-
-### Media Workflows
-
-- **Media - FFmpeg** — starter FFmpeg command patterns.
-
-## Why the Library Matters
-
-The Library demonstrates how small reusable inserts can become repeatable workflows:
-
-- AI prompts become structured methods;
-- agent instructions become repeatable delegation and verification procedures;
-- testing becomes reusable checklists;
-- shell commands become organized command sets;
-- development procedures become repeatable workflows;
-- administrative tasks become stored command groups with placeholders;
-- ordinary repeated text becomes reusable inserts.
-
-Attach Library Insert Sets to your own Projects, modify them, or create your own.
-
-The objective is not merely to save typing.
-
-It is to make **repeatable work repeatable**.
-
-## Release Notes
-
-- Windows x64.
-- Built and tested with .NET 8.
-- Release build passed.
-- Test suite passed: **319 tests**.
+This reduces the need to remain continuously engaged with an AI conversation while development work is being performed.
 
 ---
 
-**JasoosLabs**
+## Agentic AI Workflows
 
-*Of the AI, By the AI and for the AI.*
+NovaInsert does not require you to begin by constructing an autonomous AI agent.
+
+Instead, it helps organize many of the same management concepts used in agentic systems:
+
+- boundaries
+- delegation
+- execution
+- verification
+- escalation
+- autonomy
+- management
+- testing
+- evaluation
+
+These can be applied while a human remains responsible for directing and verifying the work.
+
+The result is a practical path from ordinary AI-assisted coding toward increasingly structured agentic workflows.
+
+---
+
+## Secure Hideout
+
+NovaInsert also deals with a different kind of repetitive work.
+
+Some information is needed repeatedly but should not be stored with ordinary prompts, snippets, or workflow instructions.
+
+**Hideout** provides a protected area for reusable information that can be deliberately inserted into applications and fields when needed.
+
+Examples can include:
+
+- names
+- addresses
+- phone numbers
+- email addresses
+- account-related information
+- identifiers
+- other protected reusable values
+
+Hideout keeps this information separate from normal Library Insert Sets and everyday workflow material.
+
+The working model is:
+
+**Store separately → Select deliberately → Insert where needed**
+
+Library Insert Sets are for reusable workflow knowledge.
+
+Hideout is for protected reusable information.
+
+---
+
+## What NovaInsert Does
+
+NovaInsert organizes frequently reused work into projects and reusable sets.
+
+It can help you:
+
+- organize reusable AI instructions
+- create structured coding procedures
+- manage agentic AI workflows
+- support asynchronous coding
+- reuse development commands
+- reuse PowerShell and system-administration commands
+- send text and actions to applications
+- perform reusable keyboard actions
+- maintain project-specific workflows
+- attach reusable Library Insert Sets to multiple projects
+- keep protected reusable information in Hideout
+- insert selected Hideout information into application fields
+
+The objective is not simply faster text insertion.
+
+The objective is to make repeated computer work **structured, reusable, and easier to manage**.
+
+---
+
+# Downloads
+
+## Small — .NET 8 Required
+
+`NovaInsert-v1.0.0-win-x64-small.zip`
+
+Use this package if the .NET 8 Desktop Runtime is already installed.
+
+## Full — Self-Contained
+
+`NovaInsert-v1.0.0-win-x64-full.zip`
+
+This package includes the required .NET runtime and is therefore considerably larger.
+
+---
+
+# First Run
+
+1. Extract the ZIP to a folder.
+2. Run `NovaInsert.exe`.
+3. Windows may display a security warning for software downloaded from the Internet.
+4. If required, review the warning and choose the appropriate option to run the application.
+5. NovaInsert creates and manages its working information as the application is used.
+
+The application includes built-in guides to help with initial setup and use.
+
+---
+
+# Built-In Library Insert Sets
+
+NovaInsert v1.0.0 includes a starter library containing reusable examples for AI work, development, Windows administration, testing, media work, and everyday tasks.
+
+## AI and LLM Work
+
+Included sets cover:
+
+- 4E Agentic
+- 4E LLM
+- Explore
+- Engineer
+- Evidence
+- Verify
+- Evaluate
+- Code Review
+- Red Team
+
+These provide reusable structures for working with LLMs instead of repeatedly rebuilding the same instructions.
+
+---
+
+## Agentic AI Management
+
+Included agent-oriented sets cover:
+
+- Autonomy
+- Boundaries
+- Delegate
+- Development Testing
+- Escalate
+- Execute
+- Manage
+- Manager
+- Verify
+
+These are intended to help structure the human management of increasingly agentic AI workflows.
+
+---
+
+## Testing and Release Discipline
+
+Included testing sets cover:
+
+- Adversarial Testing
+- Agent Evaluation
+- Change Testing
+- Contract Testing
+- Impact Testing
+- Production Testing
+- Regression Testing
+- Release Testing
+
+The intent is to make testing part of the reusable AI-development workflow rather than an afterthought.
+
+---
+
+## Development Workflows
+
+Starter sets include:
+
+- Android ADB
+- .NET
+- Git
+- Node / Vite
+- React Native
+
+---
+
+## Windows and PowerShell
+
+Starter sets include:
+
+- Diagnostics
+- Fields
+- Keyboard
+- PowerShell
+- WSL Ubuntu
+
+---
+
+## Everyday Work
+
+The starter library includes reusable material for common replies and issue templates.
+
+Users can create their own Insert Sets for the repetitive work that matters to them.
+
+---
+
+## Raspberry Pi and Backup-Node Administration
+
+The starter library includes reusable procedures for Raspberry Pi and backup-node work.
+
+This illustrates that NovaInsert is not limited to software development or AI prompts.
+
+---
+
+## Media Workflows
+
+An FFmpeg starter set demonstrates the use of NovaInsert for repeatable media-processing commands.
+
+---
+
+# Hideout
+
+Hideout is separate from the Library Insert Set model.
+
+Library Insert Sets are designed for reusable commands, instructions, prompts, procedures, and ordinary text.
+
+Hideout is designed for protected reusable information.
+
+This separation allows NovaInsert to support workflows where ordinary reusable material and protected information have different handling requirements.
+
+Hideout information can be selected when needed and inserted into supported application fields without turning the protected information into ordinary workflow content.
+
+---
+
+# Why the Library Matters
+
+The NovaInsert Library is more than a collection of snippets.
+
+It provides reusable operational knowledge.
+
+A useful instruction can be written once, improved over time, and attached to multiple projects.
+
+For AI-assisted development this means useful engineering practices can become persistent tools rather than temporary prompts buried in old conversations.
+
+This is central to the NovaInsert approach:
+
+**Turn repeated instructions into reusable workflow infrastructure.**
+
+---
+
+# Included Guides
+
+NovaInsert includes guides covering:
+
+- getting started
+- general use
+- Library Insert Sets
+- engineering concepts
+- using AI and Agentic AI with NovaInsert
+
+These are available from within the application.
+
+---
+
+# Release Notes
+
+NovaInsert v1.0.0:
+
+- Windows x64 application
+- .NET 8
+- framework-dependent Small package
+- self-contained Full package
+- built-in starter Library Insert Sets
+- AI and Agentic AI workflow examples
+- project-based reusable workflows
+- linked application/window workflows
+- reusable keyboard and text actions
+- Secure Hideout for protected reusable information
+- built-in guides
+- release build passed
+- 319 automated tests passed
+
+---
+
+# JasoosLabs
+
+**Of the AI, By the AI and for the AI.**

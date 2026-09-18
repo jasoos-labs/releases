@@ -1,99 +1,101 @@
-﻿cd E:\dev\JasoosLabs-Releases
-
-@'
-# JasoosLabs Releases
-
-Public downloads for JasoosLabs apps.
+﻿# JasoosLabs Releases
 
 **Of the AI, By the AI and for the AI.**
 
 ## NovaInsert v1.0.0
 
-NovaInsert is a Windows productivity app for people who repeatedly type, paste, run, explain, test, document, or delegate work.
+NovaInsert is for people who do the same kinds of computer work again and again.
 
-It lets you save reusable text, commands, keyboard actions, prompts, and task checklists, then send them to the exact destination you choose: a linked app window, a Windows Terminal tab, the clipboard, or a current text field.
+You may use NovaInsert when you want to:
 
-NovaInsert is useful when your work has repeatable patterns:
+* send repeated replies, notes, explanations, and instructions;
+* keep standard prompts ready for ChatGPT, Claude, Gemini, or local AI tools;
+* run repeated PowerShell, Windows, diagnostic, Git, build, and test commands;
+* keep checklists for testing, publishing, reviewing, and troubleshooting;
+* organize small workflows that are too useful to remember manually but too small to build a custom app for;
+* send text or commands to the correct window without hunting through old notes, scripts, chats, and bookmarks.
 
-- writing the same replies, notes, instructions, or prompts;
-- running repeated PowerShell, Windows, diagnostic, or developer commands;
-- keeping AI prompts and agent instructions consistent;
-- managing checklists for testing, release, and review;
-- building personal workflows without writing a custom app for every task;
-- sending text safely to a chosen target instead of relying on memory and manual copy/paste.
+NovaInsert is not just a text-snippet tool. It lets you organize reusable work into projects and Library Insert Sets, then send the right insert to a chosen destination: an app window, a terminal tab, the clipboard, or the current text field.
 
-## Why the included Library matters
+## Practical examples
 
-NovaInsert includes starter **Library Insert Sets (LIS)**. These are reusable collections of inserts that can be attached to your own projects.
+You can use NovaInsert for everyday work:
 
-The included Library is not just a sample. It shows how NovaInsert can become a practical command-and-workflow launcher for everyday work, development, AI collaboration, system administration, and release discipline.
+* customer-style replies;
+* family or personal notes;
+* reusable email and message fragments;
+* standard instructions you often send to AI tools.
 
-Included LIS areas:
+You can use it for Windows and developer work:
 
-- Everyday writing and reusable replies
-- Windows, PowerShell, and diagnostics
-- Raspberry Pi backup-node and shared-drive administration
-- Development workflow commands
-- Media and utility commands
-- AI, LLM, and agentic-AI prompts
-- Evidence collection and evaluation
-- Testing, review, and production-release checks
+* PowerShell commands;
+* Git commands;
+* build and test commands;
+* diagnostics;
+* app release checklists.
 
-The Raspberry Pi LIS, for example, gives a repeatable command set for fixed-IP setup, mounted shared drives, Samba checks, and Syncthing service management.
+You can use it for AI work:
 
-The AI and agentic-AI LIS sets help keep human control in the loop: define the task, give constraints, ask for evidence, verify results, and avoid blind delegation.
+* reusable AI prompts;
+* agent instructions;
+* review prompts;
+* evidence-checking prompts;
+* “do not guess” and “verify before changing” workflows.
+
+You can use it for home-admin and technical routines:
+
+* Raspberry Pi backup-node commands;
+* shared-drive checks;
+* Syncthing service checks;
+* fixed-IP and network diagnostics.
+
+The built-in Library Insert Sets give starting examples, so users can learn by using them and then create their own.
 
 ## First-time use
 
-After starting NovaInsert, open the built-in **README — Start Here** guide.
+After opening NovaInsert, start with the built-in **README — Start Here** guide.
 
 For the first tutorial, turn on:
 
-- **Enable sounds**
-- **Enable Nova dragon flight**
+* **Enable sounds**
+* **Enable Nova dragon flight**
 
-The sound and dragon cues make it easier to see where NovaInsert is sending an insert, especially while learning linked-window behavior.
+The sound and dragon cues make it easier to see where NovaInsert is sending an insert.
 
 ## Downloads
 
 ### Recommended: Small ZIP
 
-`NovaInsert-v1.0.0-win-x64-small.zip`
+[NovaInsert-v1.0.0-win-x64-small.zip](releases/NovaInsert/v1.0.0/NovaInsert-v1.0.0-win-x64-small.zip)
 
-Small package. Requires Microsoft .NET 8 Desktop Runtime for Windows x64.
-
-Use this if you already have .NET 8 Desktop Runtime installed or are comfortable installing it.
+This is the smaller download. It requires Microsoft .NET 8 Desktop Runtime for Windows x64.
 
 ### Full ZIP
 
-`NovaInsert-v1.0.0-win-x64-full.zip`
+[NovaInsert-v1.0.0-win-x64-full.zip](releases/NovaInsert/v1.0.0/NovaInsert-v1.0.0-win-x64-full.zip)
 
-Larger package. Includes the required runtime.
+This is the larger download. It includes the required runtime.
 
-Use this if you want the simplest download with fewer setup requirements.
+### Release notes
 
-## Release files
+[RELEASE-v1.0.0.md](releases/NovaInsert/v1.0.0/RELEASE-v1.0.0.md)
 
-Release folder:
+## Install
+
+1. Download one ZIP.
+2. Extract it to a folder.
+3. Run `NovaInsert.exe`.
+4. Open the built-in **README — Start Here** guide.
+
+Use the small ZIP if you already have the .NET 8 Desktop Runtime installed or are willing to install it. Use the full ZIP if you want the simpler package with the runtime included.
+
+## Repository layout
 
 ```text
-releases/NovaInsert/v1.0.0/
-
-### NovaInsert v1.0.0
-
-NovaInsert is a Windows productivity tool for organizing and inserting reusable text, commands, and other content into applications and terminals.
-
-**Downloads**
-
-- [NovaInsert v1.0.0 — Small (Windows x64)](https://github.com/jasoos-labs/releases/releases/download/novainsert-v1.0.0/NovaInsert-v1.0.0-win-x64-small.zip)
-- [NovaInsert v1.0.0 — Full / Self-Contained (Windows x64)](https://github.com/jasoos-labs/releases/releases/download/novainsert-v1.0.0/NovaInsert-v1.0.0-win-x64-full.zip)
-
-[Release Notes](releases/NovaInsert/v1.0.0/RELEASE-v1.0.0.md)
-
-[All GitHub Releases](https://github.com/jasoos-labs/releases/releases)
-
----
-
-## JasoosLabs
-
-**Of the AI, By the AI and for the AI**
+releases/
+  NovaInsert/
+    v1.0.0/
+      RELEASE-v1.0.0.md
+      NovaInsert-v1.0.0-win-x64-small.zip
+      NovaInsert-v1.0.0-win-x64-full.zip
+```

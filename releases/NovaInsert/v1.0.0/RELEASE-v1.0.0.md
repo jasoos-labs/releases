@@ -3,6 +3,7 @@
 
 ```md
 # NovaInsert v1.0.0
+![NovaInsert — Agentic AI, Simplified](https://raw.githubusercontent.com/jasoos-labs/releases/main/media/NovaInsert-GitHub-Hero-1280x640.png)
 
 ## Agentic AI, Simplified
 

@@ -7,14 +7,34 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+---
+name: Feature request
+about: Suggest an improvement or new capability for a JasoosLabs product
+title: "[FEATURE] "
+labels: enhancement
+assignees: ''
+---
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Product
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+Example: NovaInsert v1.0.0
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## What would you like to do?
+
+Describe the task, workflow, or problem you want to solve.
+
+## Suggested improvement
+
+Describe the feature or change you have in mind.
+
+## Why would this be useful?
+
+Explain how you would use it and who it might help.
+
+## Example workflow
+
+If useful, describe how you imagine the feature working.
+
+## Additional information
+
+Add screenshots, examples, links, or other context.

@@ -344,6 +344,17 @@ releases/
 
 ---
 
+## Feedback & Support
+
+Feedback is welcome.
+
+- **Bug or problem?** Open a GitHub Issue and choose **Bug report**.
+- **Idea or improvement?** Open a GitHub Issue and choose **Feature request**.
+- **Other or private contact?** Use the public contact email listed on the JasoosLabs GitHub organization profile.
+- **Following a tutorial?** Comments and questions are also welcome on the corresponding JasoosLabs YouTube video.
+
+[Open an Issue](https://github.com/jasoos-labs/releases/issues/new/choose)
+
 ## JasoosLabs
 
 JasoosLabs develops practical software around AI-assisted work, experimentation, automation, and everyday computing.

@@ -2,6 +2,8 @@
 
 **Of the AI, By the AI and for the AI.**
 
+![NovaInsert — Agentic AI, Simplified](media/NovaInsert-GitHub-Hero-1280x640.png)
+
 Practical software from JasoosLabs.
 
 ---

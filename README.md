@@ -8,7 +8,7 @@ Practical software from JasoosLabs.
 
 ---
 
-## NovaInsert v1.0.0
+## NovaInsert v1.0.1
 
 ### Agentic AI, Simplified
 
@@ -26,19 +26,19 @@ It is not an autonomous AI agent or an agent framework. It is a practical enviro
 
 #### Small — .NET 8 Required
 
-[Download NovaInsert v1.0.0 — Small](releases/NovaInsert/v1.0.0/NovaInsert-v1.0.0-win-x64-small.zip)
+[Download NovaInsert v1.0.1 — Small](releases/NovaInsert/v1.0.1/NovaInsert-v1.0.1-win-x64-small.zip)
 
 Use this version if the .NET 8 Desktop Runtime is already installed.
 
 #### Full — Self-Contained
 
-[Download NovaInsert v1.0.0 — Full](releases/NovaInsert/v1.0.0/NovaInsert-v1.0.0-win-x64-full.zip)
+[Download NovaInsert v1.0.1 — Full](releases/NovaInsert/v1.0.1/NovaInsert-v1.0.1-win-x64-full.zip)
 
 Larger download, but includes the required .NET runtime.
 
 #### Release Notes
 
-[Read the NovaInsert v1.0.0 release notes](releases/NovaInsert/v1.0.0/RELEASE-v1.0.0.md)
+[Read the NovaInsert v1.0.1 release notes](releases/NovaInsert/v1.0.1/RELEASE-v1.0.1.md)
 
 ---
 
@@ -336,10 +336,11 @@ NovaInsert includes built-in guides covering:
 ```text
 releases/
 └── NovaInsert/
-    └── v1.0.0/
-        ├── NovaInsert-v1.0.0-win-x64-small.zip
-        ├── NovaInsert-v1.0.0-win-x64-full.zip
-        └── RELEASE-v1.0.0.md
+    ├── v1.0.0/
+    └── v1.0.1/
+        ├── NovaInsert-v1.0.1-win-x64-small.zip
+        ├── NovaInsert-v1.0.1-win-x64-full.zip
+        └── RELEASE-v1.0.1.md
 ```
 
 ---

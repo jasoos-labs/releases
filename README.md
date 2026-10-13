@@ -1,4 +1,4 @@
-﻿# JasoosLabs Releases
+# JasoosLabs Releases
 
 **Of the AI, By the AI and For the AI.**
 
@@ -8,7 +8,7 @@ Practical software from JasoosLabs.
 
 ---
 
-## NovaInsert v1.0.1
+## NovaInsert v1.0.2
 
 ### Agentic AI, Simplified
 
@@ -26,19 +26,28 @@ It is not an autonomous AI agent or an agent framework. It is a practical enviro
 
 #### Small — .NET 8 Required
 
-[Download NovaInsert v1.0.1 — Small](releases/NovaInsert/v1.0.1/NovaInsert-v1.0.1-win-x64-small.zip)
+[Download NovaInsert v1.0.2 — Small](releases/NovaInsert/v1.0.2/NovaInsert-v1.0.2-win-x64-small.zip)
 
 Use this version if the .NET 8 Desktop Runtime is already installed.
 
 #### Full — Self-Contained
 
-[Download NovaInsert v1.0.1 — Full](releases/NovaInsert/v1.0.1/NovaInsert-v1.0.1-win-x64-full.zip)
+[Download NovaInsert v1.0.2 — Full](releases/NovaInsert/v1.0.2/NovaInsert-v1.0.2-win-x64-full.zip)
 
 Larger download, but includes the required .NET runtime.
 
 #### Release Notes
 
-[Read the NovaInsert v1.0.1 release notes](releases/NovaInsert/v1.0.1/RELEASE-v1.0.1.md)
+[Read the NovaInsert v1.0.2 release notes](releases/NovaInsert/v1.0.2/RELEASE-v1.0.2.md)
+
+#### What's New in v1.0.2
+
+- Improved Windows Terminal tab discovery, tracking and reuse; fixed create/execute and close/recreate issues.
+- Improved foreground verification and command delivery checks.
+- Dragon flight now starts just before command dispatch, runs asynchronously, and is skipped when destination verification fails.
+- Added a 22-command Windows Dev Starter Kit LIS and updated three guides.
+- 320 automated tests passed; manual NIT checks passed.
+
 
 ---
 
@@ -337,10 +346,14 @@ NovaInsert includes built-in guides covering:
 releases/
 └── NovaInsert/
     ├── v1.0.0/
-    └── v1.0.1/
-        ├── NovaInsert-v1.0.1-win-x64-small.zip
-        ├── NovaInsert-v1.0.1-win-x64-full.zip
-        └── RELEASE-v1.0.1.md
+    ├── v1.0.1/
+    │   ├── NovaInsert-v1.0.1-win-x64-small.zip
+    │   ├── NovaInsert-v1.0.1-win-x64-full.zip
+    │   └── RELEASE-v1.0.1.md
+    └── v1.0.2/
+        ├── NovaInsert-v1.0.2-win-x64-small.zip
+        ├── NovaInsert-v1.0.2-win-x64-full.zip
+        └── RELEASE-v1.0.2.md
 ```
 
 ---

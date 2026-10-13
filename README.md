@@ -2,377 +2,110 @@
 
 **Of the AI, By the AI and For the AI.**
 
-![NovaInsert — Agentic AI, Simplified](media/NovaInsert-GitHub-Hero-1280x640.png)
+![JasoosLabs software releases](media/NovaInsert-GitHub-Hero-1280x640.png)
 
 Practical software from JasoosLabs.
 
 ---
 
-## NovaInsert v1.0.2
+## Our Released Products
 
-### Agentic AI, Simplified
-
-**Structured AI Coding • Asynchronous Coding • Reusable Workflows • Hideout**
-
-NovaInsert is a Windows tool for organizing work you repeatedly do with AI, development tools, applications, and information.
-
-Instead of rebuilding the same prompts, commands, procedures, actions, and frequently used information every time, NovaInsert lets you organize them into reusable workflows and use them where the work actually happens.
-
-For AI-assisted development, NovaInsert provides structure around the human-AI working relationship: preparing work, delegating it, controlling boundaries, returning later, and verifying the result.
-
-It is not an autonomous AI agent or an agent framework. It is a practical environment for humans who want to work with AI in a more structured, repeatable, and increasingly agentic way.
-
-### Download NovaInsert
-
-#### Small — .NET 8 Required
-
-[Download NovaInsert v1.0.2 — Small](releases/NovaInsert/v1.0.2/NovaInsert-v1.0.2-win-x64-small.zip)
-
-Use this version if the .NET 8 Desktop Runtime is already installed.
-
-#### Full — Self-Contained
-
-[Download NovaInsert v1.0.2 — Full](releases/NovaInsert/v1.0.2/NovaInsert-v1.0.2-win-x64-full.zip)
-
-Larger download, but includes the required .NET runtime.
-
-#### Release Notes
-
-[Read the NovaInsert v1.0.2 release notes](releases/NovaInsert/v1.0.2/RELEASE-v1.0.2.md)
-
-#### What's New in v1.0.2
-
-- Improved Windows Terminal tab discovery, tracking and reuse; fixed create/execute and close/recreate issues.
-- Improved foreground verification and command delivery checks.
-- Dragon flight now starts just before command dispatch, runs asynchronously, and is skipped when destination verification fails.
-- Added a 22-command Windows Dev Starter Kit LIS and updated three guides.
-- 320 automated tests passed; manual NIT checks passed.
-
+1. [TTS Voice Showdown](#tts-voice-showdown)
+2. [Windows Dev Starter Kit — PowerShell Edition](#windows-dev-starter-kit--powershell-edition)
+3. [NovaInsert](#novainsert)
 
 ---
 
-### Who Is NovaInsert For?
+## TTS Voice Showdown
 
-NovaInsert can be useful for:
+### Hear the difference before choosing a narration voice
 
-- people building software with AI assistance
-- developers experimenting with agentic AI workflows
-- people who want to delegate AI coding work and return later
-- Windows users with repetitive commands and procedures
-- developers who repeatedly move instructions between AI, terminals, applications, and tools
-- people who repeatedly enter personal or protected information into applications and fields
+Choosing a voice from a name or sample clip can be misleading. TTS Voice Showdown lets you hear AI voices, cloned voices, and the author’s recorded voice read the **same passage**, so you can compare how they actually sound for video narration.
 
-The common problem is repetition.
+Choose one of three passages, select up to three voices, and play them individually or together. Compare the voices side by side and decide which fits your video.
 
-If useful work keeps being reconstructed, retyped, copied, searched for, or recreated, NovaInsert provides a place to turn it into reusable working infrastructure.
+**What’s included:** 17 recordings from 10 sources: commercial and Windows voices, open models, voice clones, and the author’s recording. Links identify the source or model behind each recording group.
 
----
+**TTS Voice Showdown helps you choose by listening and comparing—not by guessing from a voice label.**
 
-### Structured AI Coding
-
-AI can generate code quickly.
-
-The harder problem is organizing the work around it.
-
-What should the AI do?
-
-What context does it need?
-
-What boundaries should it respect?
-
-How should the result be verified?
-
-What tests should run?
-
-When should the AI stop and ask for help?
-
-Which instructions will be needed again tomorrow?
-
-NovaInsert uses **Library Insert Sets (LIS)** to turn these recurring pieces of work into reusable structures.
-
-An LIS can contain things such as:
-
-- AI instructions
-- development procedures
-- prompts
-- verification steps
-- testing procedures
-- PowerShell commands
-- Git commands
-- diagnostic commands
-- keyboard actions
-- frequently reused text
-
-A project can attach the LIS sets it needs.
-
-Instead of relying on memory or reconstructing prompts and procedures every time, the project gets a reusable working environment.
+- [Open the live PWA](https://jasoos-labs.github.io/tts-voice-showdown/)
+- [View the source repository](https://github.com/jasoos-labs/tts-voice-showdown)
 
 ---
 
-### Asynchronous Coding
+## Windows Dev Starter Kit — PowerShell Edition
 
-Much AI-assisted coding follows an interactive loop:
+### Spend less effort remembering the chores around your project
 
-**Prompt → Wait → Read → Respond → Repeat**
+Every project comes with a familiar set of small jobs: find a file, inspect changes, package source, apply an update, build, test, and run. Remembering which command does what—and how to do it consistently—can become its own task.
 
-NovaInsert also supports another working model:
+**Windows Dev Starter Kit gives those chores a simple, repeatable command set.** Short commands help you inspect a project, search files and text, check Git status, and follow a build-test-run cycle from PowerShell.
+
+**`bld` → `tst` → `run`**  
+Or use **`go`** to build, test, and run in sequence, stopping when a step fails.
+
+It’s a beginner-friendly personal toolkit for working with projects under Windows development folders. It complements the tools you already use; it isn’t meant to replace experienced developers’ established workflows.
+
+### Quick start
+
+Place the kit under your development folder, such as `D:\dev\windows-dev-starter-kit-powershell`, then load it in PowerShell:
+
+```powershell
+. .\dev.ps1
+```
+
+Go to a project folder and enter `dev` to see the command guide. Add a dot-source line to your PowerShell profile to load the commands automatically in later sessions.
+
+### Main commands
+
+`dev` help · `cdd` choose project · `sht` browse files · `fff` find files · `fft` search text · `pjs` Git status · `src` package source · `upd` apply update · `bld` build · `tst` test · `run` launch · `go` build, test, run
+
+- [View the public repository](https://github.com/jasoos-labs/windows-dev-starter-kit-powershell)
+
+---
+
+## NovaInsert
+
+### Put augmented and agentic AI to work—with structure
+
+AI can help explore ideas, build solutions, and handle work in the background. But every task still needs clear direction, useful context, and a way to check the result.
+
+**NovaInsert gives you a repeatable way to manage that work.** Use the **4E Value Chain** to move from exploring a possibility to realizing value. Use the **5E Solution Chain** to take each task from understanding the need through evidence, engineering, evaluation, and delivery.
+
+Prepare the instructions and tools for a project, give the task to AI, step away while it works, then return to verify the result. Reuse what works instead of reconstructing your workflow each time. NovaInsert also helps with the commands and repetitive computer tasks around your AI work.
+
+### How it works
 
 **Prepare → Delegate → Leave → Return → Verify**
 
-Think of it as **batch-mode AI coding**.
+You direct the work and remain accountable for the result. NovaInsert helps make the process organized and repeatable.
 
-Prepare a structured task.
+### What NovaInsert provides
 
-Give the work and its instructions to the AI.
+**Library Insert Sets (LIS)** organize reusable prompts, instructions, procedures, commands, checks, and keyboard actions by project, ready to send to the application where the work happens.
 
-Let the AI perform the work.
+**Hideout** keeps selected protected information separate from ordinary workflow material.
 
-Do something else.
+NovaInsert is a Windows tool for human-directed AI workflows and everyday computer tasks. It facilitates agentic work; it is not an autonomous AI agent.
 
-Return when convenient.
+### Download NovaInsert v1.0.2
 
-Verify what happened.
+- [Small — requires .NET 8 Desktop Runtime](releases/NovaInsert/v1.0.2/NovaInsert-v1.0.2-win-x64-small.zip)
+- [Full — includes the .NET runtime](releases/NovaInsert/v1.0.2/NovaInsert-v1.0.2-win-x64-full.zip)
+- [v1.0.2 release notes](releases/NovaInsert/v1.0.2/RELEASE-v1.0.2.md)
 
-This makes AI coding useful even when you do not want to remain continuously engaged with an AI conversation.
+**What’s new in v1.0.2:** improved Windows Terminal tab discovery and reuse, stronger destination verification, and dragon flight timed immediately before command dispatch. This release also adds a 22-command Windows Dev Starter Kit LIS. **320 automated tests passed.**
 
----
+Earlier NovaInsert packages and release notes are in [`releases/NovaInsert/`](releases/NovaInsert/).
 
-### Human + AI Workflows
-
-Many useful ideas associated with agentic AI can be applied before building a fully autonomous software agent.
-
-For example:
-
-- define boundaries
-- delegate work
-- execute tasks
-- verify results
-- escalate problems
-- control autonomy
-- manage development
-- test changes
-- evaluate results
-
-NovaInsert provides reusable workflow material for these activities.
-
-The human remains responsible for directing and verifying the work while the process becomes increasingly structured and repeatable.
-
----
-
-### Reusable Workflows
-
-NovaInsert is not limited to AI prompts.
-
-The underlying model is general-purpose.
-
-Frequently repeated work can be organized into reusable Library Insert Sets and associated with the projects that need them.
-
-This can include:
-
-- prompts
-- commands
-- instructions
-- checklists
-- procedures
-- diagnostic steps
-- testing sequences
-- keyboard actions
-- reusable text
-
-Useful operational knowledge can therefore become persistent infrastructure instead of temporary text buried in old conversations, documents, or terminal history.
-
----
-
-### Hideout
-
-Some reusable information has different handling requirements from ordinary prompts, commands, and snippets.
-
-NovaInsert includes **Hideout** for protected reusable information.
-
-Hideout keeps this information separate from ordinary Library Insert Sets and lets selected values be deliberately inserted into applications and fields when needed.
-
-Examples can include:
-
-- names
-- addresses
-- phone numbers
-- email addresses
-- account-related information
-- identifiers
-- other reusable values that should not be mixed with ordinary workflow content
-
-The working model is:
-
-**Store separately → Select deliberately → Insert where needed**
-
-Library Insert Sets organize reusable workflow knowledge.
-
-Hideout handles protected reusable information.
-
----
-
-### Built-In AI and LLM Workflows
-
-NovaInsert includes starter Library Insert Sets for activities such as:
-
-- Explore
-- Engineer
-- Evidence
-- Verify
-- Evaluate
-- Code Review
-- Red Team
-
-These provide reusable structures for working with LLMs instead of repeatedly rebuilding the same instructions.
-
----
-
-### Built-In Agent Management Workflows
-
-Starter material includes:
-
-- Boundaries
-- Delegate
-- Execute
-- Verify
-- Escalate
-- Autonomy
-- Manage
-- Manager
-- Development Testing
-
-These provide practical building blocks for managing human-AI work.
-
----
-
-### Testing and Release Discipline
-
-NovaInsert also includes reusable testing workflows for:
-
-- Adversarial Testing
-- Agent Evaluation
-- Change Testing
-- Contract Testing
-- Impact Testing
-- Production Testing
-- Regression Testing
-- Release Testing
-
-Testing can therefore become part of the reusable development workflow rather than something reconstructed after every change.
-
----
-
-### Development Examples
-
-Starter Library Insert Sets demonstrate workflows for:
-
-- .NET
-- Git
-- Android ADB
-- Node / Vite
-- React Native
-
-These are examples of the underlying reusable-work model rather than limits on what NovaInsert can support.
-
----
-
-### Windows and System Administration Examples
-
-Starter material includes:
-
-- PowerShell
-- diagnostics
-- keyboard operations
-- WSL Ubuntu
-- reusable Windows fields
-
----
-
-### Raspberry Pi and Backup Administration
-
-The starter library includes reusable procedures for Raspberry Pi and backup-node work.
-
-This demonstrates how the same workflow model can be used outside software development.
-
----
-
-### Media Workflows
-
-An FFmpeg starter set demonstrates reusable media-processing commands and procedures.
-
----
-
-### Everyday Work
-
-NovaInsert can also hold frequently used replies, text, information, and other repetitive computer work.
-
-Users can create their own Library Insert Sets for the work that matters to them.
-
----
-
-### How NovaInsert Works
-
-A typical workflow is:
-
-1. Create or select a project.
-2. Attach the Library Insert Sets useful for that project.
-3. Select or capture the destination application or window.
-4. Choose the reusable instruction, command, text, or action.
-5. NovaInsert sends it to the intended destination.
-6. Use Hideout when protected reusable information is required.
-
-The same reusable material can support multiple projects and workflows.
-
----
-
-### Start Here
-
-NovaInsert includes built-in guides covering:
-
-- getting started
-- projects
-- linked windows
-- inserts
-- Library Insert Sets
-- AI and agentic AI workflows
-- Hideout
-- engineering concepts
-
----
-
-### Current NovaInsert Release
-
-```text
-releases/
-└── NovaInsert/
-    ├── v1.0.0/
-    ├── v1.0.1/
-    │   ├── NovaInsert-v1.0.1-win-x64-small.zip
-    │   ├── NovaInsert-v1.0.1-win-x64-full.zip
-    │   └── RELEASE-v1.0.1.md
-    └── v1.0.2/
-        ├── NovaInsert-v1.0.2-win-x64-small.zip
-        ├── NovaInsert-v1.0.2-win-x64-full.zip
-        └── RELEASE-v1.0.2.md
-```
+- [View the NovaInsert repository](https://github.com/jasoos-labs/NovaInsert) (private source repository)
 
 ---
 
 ## Feedback & Support
 
-Feedback is welcome.
+- **Bug or problem?** [Open an issue](https://github.com/jasoos-labs/releases/issues/new/choose) and choose **Bug report**.
+- **Idea or improvement?** Open an issue and choose **Feature request**.
+- **Other or private contact?** Use the public contact email on the JasoosLabs GitHub organization profile.
 
-- **Bug or problem?** Open a GitHub Issue and choose **Bug report**.
-- **Idea or improvement?** Open a GitHub Issue and choose **Feature request**.
-- **Other or private contact?** Use the public contact email listed on the JasoosLabs GitHub organization profile.
-- **Following a tutorial?** Comments and questions are also welcome on the corresponding JasoosLabs YouTube video.
-
-[Open an Issue](https://github.com/jasoos-labs/releases/issues/new/choose)
-
-## JasoosLabs
-
-JasoosLabs develops practical software around AI-assisted work, experimentation, automation, and everyday computing.
-
-Additional JasoosLabs products will be added to this Releases repository as they become available.
-
-**Of the AI, By the AI and For the AI.**
+JasoosLabs builds practical software around AI-assisted work, experimentation, automation, music, media, and everyday computing. This repository collects public downloads and release notes; each project page provides its source and product information.
